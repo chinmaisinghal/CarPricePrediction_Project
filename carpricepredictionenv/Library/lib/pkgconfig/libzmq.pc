@@ -1,0 +1,12 @@
+prefix=d:/carpricepredictor/carpricepredictionenv/Library
+exec_prefix=d:/carpricepredictor/carpricepredictionenv/Library
+libdir=d:/carpricepredictor/carpricepredictionenv/Library/lib
+includedir=d:/carpricepredictor/carpricepredictionenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
